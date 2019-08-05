@@ -137,6 +137,8 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DDPageControl" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
@@ -187,13 +189,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DDPageControl_Prefix.pch;
 				INFOPLIST_FILE = "DDPageControl-Info.plist";
 				PRODUCT_NAME = "Page Control";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -201,11 +206,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DDPageControl_Prefix.pch;
 				INFOPLIST_FILE = "DDPageControl-Info.plist";
 				PRODUCT_NAME = "Page Control";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -218,6 +226,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PREBINDING = NO;
 				PRODUCT_NAME = "Page Control";
 				SDKROOT = iphoneos;
@@ -232,6 +241,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
 				PRODUCT_NAME = "Page Control";
