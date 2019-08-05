@@ -11,8 +11,8 @@
 
 @implementation DDPageControlAppDelegate
 
-@synthesize window ;
-@synthesize viewController ;
+@synthesize window;
+@synthesize viewController;
 
 
 #pragma mark -
@@ -20,10 +20,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-	[self.window addSubview: viewController.view] ;
-	[self.window makeKeyAndVisible] ;
+	[self.window addSubview: viewController.view];
+	[self.window makeKeyAndVisible];
 	
-	return YES ;
+	return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -77,10 +77,10 @@
 
 - (void)dealloc
 {
-	[viewController release] ;
-	[window release] ;
+	[viewController release];
+	[window release];
 	
-	[super dealloc] ;
+	[super dealloc];
 }
 
 

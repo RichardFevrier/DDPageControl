@@ -8,16 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@class DDPageControlViewController ;
+@class DDPageControlViewController;
 
 @interface DDPageControlAppDelegate : NSObject <UIApplicationDelegate>
 {
-	UIWindow *window ;
-	DDPageControlViewController *viewController ;
+	UIWindow *window;
+	DDPageControlViewController *viewController;
 }
 
-@property (nonatomic, retain) IBOutlet UIWindow *window ;
-@property (nonatomic, retain) IBOutlet DDPageControlViewController *viewController ;
+@property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet DDPageControlViewController *viewController;
 
 
 @end

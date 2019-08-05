@@ -8,16 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@class DDPageControl ;
+@class DDPageControl;
 
 @interface DDPageControlViewController : UIViewController <UIScrollViewDelegate>
 {
-	IBOutlet UIScrollView *scrollView ;
+	IBOutlet UIScrollView *scrollView;
 	
-	DDPageControl *pageControl ;
+	DDPageControl *pageControl;
 }
 
-@property (nonatomic,retain) IBOutlet UIScrollView *scrollView ;
+@property (nonatomic,retain) IBOutlet UIScrollView *scrollView;
 
 
 @end
